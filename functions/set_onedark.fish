@@ -183,12 +183,12 @@ function set_onedark -d "apply onedark colorscheme to your terminal"
     end
 
     __onedark_input_color fish_color_normal            $__onedark_white
-    __onedark_input_color fish_color_command           $__onedark_brmagenta
+    __onedark_input_color fish_color_command           $__onedark_blue
     __onedark_input_color fish_color_quote             $__onedark_brgreen
     __onedark_input_color fish_color_redirection       $__onedark_brcyan
     __onedark_input_color fish_color_end               $__onedark_white
     __onedark_input_color fish_color_error             $__onedark_brred
-    __onedark_input_color fish_color_param             $__onedark_brred
+    __onedark_input_color fish_color_param             $__onedark_brcyan
     __onedark_input_color fish_color_comment           $__onedark_brblack
     __onedark_input_color fish_color_match             $__onedark_brcyan
     __onedark_input_color fish_color_search_match      $__onedark_blue
