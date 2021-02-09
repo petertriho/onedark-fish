@@ -73,7 +73,7 @@ function set_onedark_color -a name rgb index256 -d "define color for onedark"
         if test (set -q $target; echo $status) -ne 0
             switch $name
                 case black red green yellow blue magenta cyan white brblack brred brgreen bryellow brblue brmagenta brcyan brwhite
-                    set -g __onedark_$name $default_color
+                    set -U __onedark_$name $default_color
                 case "*"
                     echo "set_onedark_color: Unknown color '$name' at index 1" > /dev/stderr
                     return 1

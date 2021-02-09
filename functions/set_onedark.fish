@@ -107,22 +107,22 @@ function set_onedark -d "apply onedark colorscheme to your terminal"
                 set template '%s'
         end
         switch $i16
-            case 0;  set -g $target (string split ' ' (printf "$template" black    ))
-            case 1;  set -g $target (string split ' ' (printf "$template" red      ))
-            case 2;  set -g $target (string split ' ' (printf "$template" green    ))
-            case 3;  set -g $target (string split ' ' (printf "$template" yellow   ))
-            case 4;  set -g $target (string split ' ' (printf "$template" blue     ))
-            case 5;  set -g $target (string split ' ' (printf "$template" magenta  ))
-            case 6;  set -g $target (string split ' ' (printf "$template" cyan     ))
-            case 7;  set -g $target (string split ' ' (printf "$template" white    ))
-            case 8;  set -g $target (string split ' ' (printf "$template" brblack  ))
-            case 9;  set -g $target (string split ' ' (printf "$template" brred    ))
-            case 10; set -g $target (string split ' ' (printf "$template" brgreen  ))
-            case 11; set -g $target (string split ' ' (printf "$template" bryellow ))
-            case 12; set -g $target (string split ' ' (printf "$template" brblue   ))
-            case 13; set -g $target (string split ' ' (printf "$template" brmagenta))
-            case 14; set -g $target (string split ' ' (printf "$template" brcyan   ))
-            case 15; set -g $target (string split ' ' (printf "$template" brwhite  ))
+            case 0;  set -U $target (string split ' ' (printf "$template" black    ))
+            case 1;  set -U $target (string split ' ' (printf "$template" red      ))
+            case 2;  set -U $target (string split ' ' (printf "$template" green    ))
+            case 3;  set -U $target (string split ' ' (printf "$template" yellow   ))
+            case 4;  set -U $target (string split ' ' (printf "$template" blue     ))
+            case 5;  set -U $target (string split ' ' (printf "$template" magenta  ))
+            case 6;  set -U $target (string split ' ' (printf "$template" cyan     ))
+            case 7;  set -U $target (string split ' ' (printf "$template" white    ))
+            case 8;  set -U $target (string split ' ' (printf "$template" brblack  ))
+            case 9;  set -U $target (string split ' ' (printf "$template" brred    ))
+            case 10; set -U $target (string split ' ' (printf "$template" brgreen  ))
+            case 11; set -U $target (string split ' ' (printf "$template" bryellow ))
+            case 12; set -U $target (string split ' ' (printf "$template" brblue   ))
+            case 13; set -U $target (string split ' ' (printf "$template" brmagenta))
+            case 14; set -U $target (string split ' ' (printf "$template" brcyan   ))
+            case 15; set -U $target (string split ' ' (printf "$template" brwhite  ))
         end
     end
 
